@@ -1,0 +1,75 @@
+.web__general {
+    background: var(--color-secondary);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+.divider__border__light {
+    margin-bottom: 1rem;
+    width: 40px;
+    height: 3px;
+    background: var(--color-primary);
+}
+.web__general p {
+    text-align: center;
+}
+.web__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin: 1rem;
+}
+.web__bubble {
+    background: var(--color-tercary);
+    color: black;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.web__bubble p {
+    margin: 0.5rem;
+}
+.web__bubble ul {
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.web__title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.web__title h3 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+.web__divider__border {
+    margin-bottom: 0.5rem;
+    width: 40px;
+    height: 3px;
+    background: var(--color-primary);
+}
+.bubble__divided {
+    background: var(--color-tercary);
+    color: black;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.bubble__divided ul {
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.bubble__divided__small {
+    background: var(--color-tercary);
+    color: black;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

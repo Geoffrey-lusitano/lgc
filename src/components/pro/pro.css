@@ -1,17 +1,14 @@
 
-#pro {
-
-}
-
 .general {
-
     color: var(--color-text-dark);
 }
+
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .divider__border {
     margin-top: 1rem;
     width: 40px;
@@ -20,35 +17,19 @@
 }
 
 .bord {
-
     border-radius: var(--border-radius);
     background-color: var(--color-secondary);
     color: var(--color-text-light);
     margin: 1rem 2rem 1rem 2rem;
 }
+
 .bord__little {
     padding: 2rem;
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
-.bord__big {
 
+.bord__big {
     padding: 2rem;
-}
-.sticker {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.icon {
-    display: flex;
-    justify-content: center;
-    font-size: 4rem;
-    margin: 1rem 0 1rem 0;
-}
-.sticker h3 {
-    margin-bottom: 1rem;
-    text-align: center;
 }

@@ -1,0 +1,37 @@
+.home__general {
+    background: var(--color-primary);
+    padding-bottom: 50px;
+}
+.carousel {
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    border-radius: var(--border-radius);
+    background: var(--color-text-light);
+}
+.home__general h1, h2, h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.home__general p {
+    text-align: center;
+}
+.home__contact {
+    background: var(--color-secondary);
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    border-radius: var(--border-radius);
+
+}
+
+.cels__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
