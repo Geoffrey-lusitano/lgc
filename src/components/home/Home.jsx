@@ -1,12 +1,15 @@
 import React from "react";
 import './home.css';
+import Slider from './Slider.jsx';
 import { BiBuildings } from "react-icons/bi";
 
 const Home = () => {
     return (
       <section id="home">
         <div className="home__general">
-          <div className="carousel"></div>
+          <div className="carousel">
+            <Slider />
+          </div>
           <h1>Solution complete informatiques Chambéry</h1>
           <p>
             Un projet web ou une évolution de votre infrastructure ? LGC vous
