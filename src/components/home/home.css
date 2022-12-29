@@ -1,20 +1,92 @@
 .home__general {
     background: var(--color-primary);
     padding-top: 2rem;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home__text__center {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: large;
+    text-align: center;
+}
+.home__general h1, h2, h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.under__title {
+    width: 40px;
+    height: 2px;
+    background: var(--color-text-light);
+    border: 2px solid var(--color-text-light);
+    border-radius: var(--border-radius);
+
+}
+.slogan {
+    text-align: center;
+}
+/*===================CONTACT===================*/
+.h2__contact {
+    margin-top: 2rem;
+}
+.home__contact {
+    background: var(--color-secondary);
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: var(--border-radius);
+    position: absolute;
+    bottom: -70px;
+    left: 10%;
+    min-height: 130px;
+}
+.contact__cels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 2px solid var(--color-text-light);
+    padding: 1rem;
+}
+.contact__cels:last-child {
+    border-right: none;
+}
+.cels__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cels__icon {
+    margin-right: 1rem;
+    font-size: 40px;
+    color: var(--color-primary);
+}
+.cels__content a {
+    color: var(--color-text-light);
+}
+.cels__content a:hover {
+    color: var(--color-primary);
 }
 /*===================CAROUSEL===================*/
 
 .carousel {
     position: relative;
     border-radius: var(--border-radius);
+    height: 500px;
+    margin: 2rem;
 }
 .carousel .carousel-slider {
-    max-width: 1200px !important;
+    max-width: 1700px !important;
     margin: 0 auto !important;
+    height: 500px;
 }
 .carousel .thumbs {
-    display: flex;
+    display: none;
     justify-content: center;
     margin: 0;
     padding: 10px;
@@ -27,38 +99,16 @@
 .carousel .overlay {
     width: 80%;
     position: absolute;
-    transform: translateY(-200%);
+    transform: translateY(-450%);
     left: 10%;
     padding: 0.4rem 1.5rem;
     text-align: left;
     background: rgba(0, 0, 0, 0.5);
-}
-.home__general h1, h2, h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0;
-}
-.home__general p {
-    text-align: center;
-}
-.home__contact {
-    background: var(--color-secondary);
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    border-radius: var(--border-radius);
-
+    display: none;
 }
 
-.cels__content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 1rem;
-}
+
+
 
 @media screen and (max-width:767px) {
     .carousel .slide img {

@@ -41,7 +41,9 @@ ul {
 #home, #pro, #particular, #web, #portfolio, #contact {
   padding: 75px 0 0;
 }
-
+h1 {
+  font-size: 30px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
