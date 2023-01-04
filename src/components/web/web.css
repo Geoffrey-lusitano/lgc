@@ -4,15 +4,23 @@
     padding: 1rem;
     border-radius: var(--border-radius);
 }
+.web__general__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
 .divider__border__light {
-    margin-bottom: 1rem;
+    margin: 0.5rem 0;
     width: 40px;
     height: 3px;
     background: var(--color-primary);
 }
-.web__general p {
+.web__spitch {
     text-align: center;
+    padding: 1rem;
 }
+/**/
 .web__content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -26,15 +34,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
 }
 .web__bubble p {
-    margin: 0.5rem;
-}
-.web__bubble ul {
-    margin: 0.5rem;
     text-align: center;
-    font-size: 0.9rem;
 }
+
 .web__title {
     display: flex;
     align-items: center;
@@ -43,13 +49,35 @@
 }
 .web__title h3 {
     font-size: 1rem;
-    margin-bottom: 0.2rem;
+    margin: 0.2rem 0;
+}
+.web__title p {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0.5rem;
+}
+.web__bubble ul {
+    text-align: center;
+    font-size: 0.9rem;
+}
+.web__bubble li {
+    padding: 0 0.5rem;
+    line-height: 2rem;
 }
 .web__divider__border {
     margin-bottom: 0.5rem;
     width: 40px;
     height: 3px;
     background: var(--color-primary);
+}
+.web__buble__lilight {
+    background: var(--color-secondary-light);
+}
+/**/
+.web__bubble__divided {
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
 }
 .bubble__divided {
     background: var(--color-tercary);
@@ -58,12 +86,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
+    padding: 1rem 0;
 }
 .bubble__divided ul {
-    margin: 0.5rem;
     text-align: center;
     font-size: 0.9rem;
+}
+.bubble__divided li {
+    padding: 0 0.5rem;
+    line-height: 2rem;
 }
 .bubble__divided__small {
     background: var(--color-tercary);
@@ -72,4 +103,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 0;
 }

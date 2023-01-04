@@ -1,7 +1,6 @@
 
-.general {
+.pro__general {
     color: var(--color-text-dark);
-    margin-top: 50px;
 }
 
 .title {
@@ -10,27 +9,51 @@
     align-items: center;
 }
 
-.divider__border {
+.divider__border__pro {
     margin-top: 1rem;
     width: 40px;
     height: 3px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-text-light);
 }
 
 .bord {
     border-radius: var(--border-radius);
     background-color: var(--color-secondary);
     color: var(--color-text-light);
-    margin: 1rem 2rem 1rem 2rem;
+    display: flex;
+    align-items: center;
 }
-
+.pro__img {
+    max-width: 700px;
+}
+.bord__content {
+    align-items: center;
+}
 .bord__little {
-    padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 1.5rem;
+    text-align: left;
+    padding:  2rem;
+
+}
+.pro__sticker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pro__sticker h3 {
+    width: 400px;
+    padding: 1rem;
+    text-align: left;
+}
+.pro__sticker p {
+    max-width: 350px;
 }
 
-.bord__big {
-    padding: 2rem;
+.icon {
+    padding: 10px;
+    display: flex;
+    justify-content: left;
 }

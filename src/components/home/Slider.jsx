@@ -32,7 +32,7 @@ const Slider = () => {
 
     return (
       <Carousel autoPlay interval={6000} infiniteLoop thumbWidth={120} showStatus={false}
-      width={'80%'} dynamicHeight={false}>
+      width={'100%'} dynamicHeight={false}>
         {datas.map((slide) => (
           <div key={slide.id}>
             <img src={slide.image} alt="" />

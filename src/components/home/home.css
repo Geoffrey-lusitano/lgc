@@ -1,5 +1,9 @@
+#home {
+    background: var(--color-primary);
+}
 .home__general {
     background: var(--color-primary);
+    color: var(--color-text-light);
     padding-top: 2rem;
     padding-bottom: 80px;
     position: relative;
@@ -33,6 +37,7 @@
 /*===================CONTACT===================*/
 .h2__contact {
     margin-top: 2rem;
+    text-transform: uppercase;
 }
 .home__contact {
     background: var(--color-secondary);
@@ -44,6 +49,7 @@
     bottom: -70px;
     left: 10%;
     min-height: 130px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .contact__cels {
     display: flex;
@@ -81,7 +87,6 @@
     margin: 2rem;
 }
 .carousel .carousel-slider {
-    max-width: 1700px !important;
     margin: 0 auto !important;
     height: 500px;
 }

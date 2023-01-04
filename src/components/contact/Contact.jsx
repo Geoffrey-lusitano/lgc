@@ -19,7 +19,9 @@ const Contact = () => {
   };
     return (
       <section id="contact">
-        <h2> Contactez-moi</h2>
+        <div className="title">
+              <h2>Contactez-nous</h2>
+            </div>
 
         <div className="contact__container">
           <div className="contact__options">

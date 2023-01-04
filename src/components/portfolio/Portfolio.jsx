@@ -44,8 +44,11 @@ const data = [
 const Portfolio = () => {
     return (
       <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div className="portfolio__general">
+        <div className="title">
+              <h2>Portfolio</h2>
+              <div className="divider__border"></div>
+            </div>
+        <div className="general portfolio__general">
           {
             data.map(({id, image, title, github, demo}) => {
               return (

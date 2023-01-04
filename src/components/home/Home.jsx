@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 const Home = () => {
     return (
       <section id="home">
-        <div className="home__general">
+        <div className="general home__general">
           <h1>La solution informatique complète à Chambéry</h1>
           <div className="under__title"></div>
           <div className="carousel">
@@ -17,7 +17,7 @@ const Home = () => {
           <h2 className="slogan">
             Un projet web ou une évolution de votre infrastructure ?
             <br />
-            LGC vous accompagne de A - Z 
+            Nous vous accompagnons de A - Z 
             <br />
             dans vos projets IT.
           </h2>
@@ -32,14 +32,14 @@ const Home = () => {
           <h2 className="h2__contact">Nous contacter</h2>
           <div className="home__contact">
             <div className="contact__cels">
-              <h3>Une panne ?</h3>
+              <h3>UNE PANNE ?</h3>
               <div className="cels__content">
                 <BsTelephoneFill className="cels__icon" />
                 <p> 06 65 10 34 78</p>
               </div>
             </div>
             <div className="contact__cels">
-              <h3>Un projet ?</h3>
+              <h3>UN PROJET ?</h3>
               <div className="cels__content">
                 <MdEmail className="cels__icon" />
                 <a href="mailto:contact@lgcorporation.fr" target="_blank">
@@ -48,7 +48,7 @@ const Home = () => {
               </div>
             </div>
             <div className="contact__cels">
-              <h3>Un conseil ?</h3>
+              <h3>UN CONSEIL ?</h3>
               <div className="cels__content">
                 <BsWhatsapp className="cels__icon" />
                 <a
