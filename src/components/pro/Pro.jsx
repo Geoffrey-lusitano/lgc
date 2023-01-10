@@ -11,7 +11,8 @@ function Pro() {
     <section id="pro">
       <div className="general pro__general">
         <div className="bord">
-          <img className="pro__img" src={pro} alt="" />
+          <div className="pro__content__img">
+          </div>
           <div className="bord__content">
             <div className="title">
               <h2>Services aux professionnels</h2>
@@ -27,9 +28,6 @@ function Pro() {
                   espace de travail
                 </h3>
                 <p>
-                  Chaque entreprise dispose de son propre parc informatique, où
-                  les besoins et difficultés rencontrés leurs sont propres.
-                  <br />
                   Afin de garantir un contrat de maintenance informatique
                   personnalisé et de qualité, nous réalisons au préalable une
                   analyse complète de votre parc informatique et de votre

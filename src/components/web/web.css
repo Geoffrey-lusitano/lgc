@@ -8,6 +8,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+.web__general__title h2 {
     font-size: 2rem;
 }
 .divider__border__light {
@@ -19,6 +22,7 @@
 .web__spitch {
     text-align: center;
     padding: 1rem;
+    font-size: 0.9rem;
 }
 /**/
 .web__content {
@@ -39,6 +43,7 @@
 }
 .web__bubble p {
     text-align: center;
+    font-size: 0.8rem;
 }
 
 .web__title {
@@ -48,17 +53,17 @@
     justify-content: center;
 }
 .web__title h3 {
-    font-size: 1rem;
     margin: 0.2rem 0;
 }
 .web__title p {
-    font-size: 25px;
+    font-size: 0.8rem;
     font-weight: 900;
     margin: 0.5rem;
 }
 .web__bubble ul {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
+    width: 100%;
 }
 .web__bubble li {
     padding: 0 0.5rem;
@@ -88,9 +93,13 @@ justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
+.bubble__divided p {
+    font-size: 0.8rem;
+}
 .bubble__divided ul {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
+    width: 100%;
 }
 .bubble__divided li {
     padding: 0 0.5rem;
@@ -104,4 +113,25 @@ justify-content: space-between;
     flex-direction: column;
     align-items: center;
     padding: 1rem 0;
+}
+
+@media screen and (max-width:1161px) {
+    .web__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .web__content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+    .bubble__divided {
+        margin-bottom: 25px;
+    }
 }

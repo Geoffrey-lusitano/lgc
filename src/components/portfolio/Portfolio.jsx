@@ -1,6 +1,7 @@
 import React from "react";
 import './portfolio.css';
 import pilates from '../../assets/portfolio/pilates.png'
+import mas from '../../assets/portfolio/mas.png'
 
 const data = [
   {
@@ -10,28 +11,10 @@ const data = [
     demo: 'http://lecorpspilates.fr/',
   },
   {
-    id: 1,
-    image: pilates,
-    title: 'Site vitrine de Pilates',
-    demo: 'http://lecorpspilates.fr/',
-  },
-  {
-    id: 1,
-    image: pilates,
-    title: 'Site vitrine de Pilates',
-    demo: 'http://lecorpspilates.fr/',
-  },
-  {
-    id: 1,
-    image: pilates,
-    title: 'Site vitrine de Pilates',
-    demo: 'http://lecorpspilates.fr/',
-  },
-  {
-    id: 1,
-    image: pilates,
-    title: 'Site vitrine de Pilates',
-    demo: 'http://lecorpspilates.fr/',
+    id: 2,
+    image: mas,
+    title: 'Site vitrine de Reflexologue',
+    demo: 'http://laurence-descat.fr/',
   },
   {
     id: 1,

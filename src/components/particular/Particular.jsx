@@ -63,8 +63,8 @@ const Particular = () => {
               </div>
             </div>
           </div>
-
-          <img className="pro__img" src={particular} alt="" />
+          <div className="particular__content__img">
+          </div>
         </div>
       </div>
     </section>

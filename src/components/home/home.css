@@ -17,6 +17,7 @@
     margin: 0 auto;
     font-size: large;
     text-align: center;
+    font-size: 1rem;
 }
 .home__general h1, h2, h3 {
     display: flex;
@@ -29,15 +30,22 @@
     background: var(--color-text-light);
     border: 2px solid var(--color-text-light);
     border-radius: var(--border-radius);
-
+    margin-top: 10px;
 }
 .slogan {
     text-align: center;
 }
 /*===================CONTACT===================*/
-.h2__contact {
-    margin-top: 2rem;
-    text-transform: uppercase;
+.socialNetwork {
+    margin-top: 1rem;
+}
+.socialNetwork a {
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--color-secondary);
+}
+.socialNetwork a:hover {
+    color: var(--color-tercary);
 }
 .home__contact {
     background: var(--color-secondary);
@@ -70,7 +78,6 @@
 .cels__icon {
     margin-right: 1rem;
     font-size: 40px;
-    color: var(--color-primary);
 }
 .cels__content a {
     color: var(--color-text-light);
@@ -78,17 +85,23 @@
 .cels__content a:hover {
     color: var(--color-primary);
 }
+.whatapp {
+    color: #4FCA5D;
+}
+.mails {
+    color: #106EBE;
+}
 /*===================CAROUSEL===================*/
 
 .carousel {
     position: relative;
     border-radius: var(--border-radius);
-    height: 500px;
-    margin: 2rem;
+    height: 300px;
+    margin: 1rem;
 }
 .carousel .carousel-slider {
     margin: 0 auto !important;
-    height: 500px;
+    height: 300px;
 }
 .carousel .thumbs {
     display: none;
@@ -114,8 +127,26 @@
 
 
 
+@media screen and (max-width:1161px) {
+    .bord {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 @media screen and (max-width:767px) {
+    .home__general {
+        padding-bottom: 250px;
+    }
+    .home__general h1 {
+        text-align: center;
+    }
+    .home__contact {
+        grid-template-columns: repeat(1, 1fr);
+        bottom: -70px;
+    }
+    .contact__cels {
+        border-right: none;
+    }
     .carousel .slide img {
         width: 100vw !important;
         height: 40vh;

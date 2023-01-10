@@ -8,7 +8,7 @@
     align-items: center;
 }
 .title h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .divider__border {
     margin-top: 1rem;
@@ -43,9 +43,26 @@ padding: 1rem;
 
 .particular__icon {
 font-size: 2rem;
-padding-top: 1rem;
+padding-top: 0.5rem;
 }
 .particular__icon svg g {
     color: var(--color-secondary);
     fill: var(--color-secondary);
+}
+.particular__content__img {
+    background-image: url(../../assets/particular.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+@media screen and (max-width:1161px) {
+    .particular__bord {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:630px) {
+    .particular__bord {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

@@ -12,7 +12,7 @@ function Nav() {
   return (
     <nav className={`navbar ${showLinks ? " show-nav" : "hide-nav"}`}>
       <div className="navbar__logo">
-        <img src={Logo} alt="logo LGCorporation" />
+        <img className="img__logo" src={Logo} alt="logo LGCorporation" />
       </div>
       <ul className="navbar__links">
         <li className="navbar__item slideInDown-1" onClick={handleShowLinks} >
