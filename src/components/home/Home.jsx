@@ -34,21 +34,21 @@ const Home = () => {
         </p>
         <div className="socialNetwork">
           <a
-            href="https://www.linkedin.com/in/laurence-descat-ei-5bab12201/"
+            href="https://www.linkedin.com/company/lgcorporation/about/?viewAsMember=true"
             target="_blank"
             rel="noreferrer"
           >
             <BsLinkedin />
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=100011590411183"
+            href="https://www.facebook.com/profile.php?id=100089736540403"
             target="_blank"
             rel="noreferrer"
           >
             <BsFacebook />
           </a>
           <a
-            href="https://www.instagram.com/reflexo_massagesensitif_ld73/?hl=fr"
+            href="https://www.instagram.com/lgcorporation.73/"
             target="_blank"
             rel="noreferrer"
           >
