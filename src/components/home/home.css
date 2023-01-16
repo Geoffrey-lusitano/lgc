@@ -153,7 +153,7 @@
         object-fit: cover;
     }
     .carousels {
-        width: 100%;
+        display: none;
     }
     .slogan {
         padding: 1rem;
