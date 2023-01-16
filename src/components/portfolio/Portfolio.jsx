@@ -16,12 +16,7 @@ const data = [
     title: 'Site vitrine de Reflexologue',
     demo: 'http://laurence-descat.fr/',
   },
-  {
-    id: 1,
-    image: pilates,
-    title: 'Site vitrine de Pilates',
-    demo: 'http://lecorpspilates.fr/',
-  },
+
 ]
 
 const Portfolio = () => {
