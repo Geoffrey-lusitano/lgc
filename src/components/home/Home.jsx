@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
+import one from '../../assets/1.jpg'
 
 const Home = () => {
   return (
@@ -14,9 +15,10 @@ const Home = () => {
       <div className="general home__general">
         <h1>La solution informatique complète à Chambéry</h1>
         <div className="under__title"></div>
-        <div className="carousels">
+        {/* <div className="carousels">
           <Slider />
-        </div>
+        </div> */}
+        <img className="carousels" src={one} alt="" />
         <h2 className="slogan">
           Un projet web / une évolution de votre infrastructure ?
           <br />
