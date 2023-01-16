@@ -31,6 +31,7 @@
     border: 2px solid var(--color-text-light);
     border-radius: var(--border-radius);
     margin-top: 10px;
+    margin-bottom: 1rem;
 }
 .slogan {
     text-align: center;
@@ -93,28 +94,27 @@
 }
 /*===================CAROUSEL===================*/
 
-.carousel {
+.carousels {
     position: relative;
     border-radius: var(--border-radius);
     height: 300px;
-    margin: 1rem;
 }
-.carousel .carousel-slider {
+.carousels .carousel-slider {
     margin: 0 auto !important;
     height: 300px;
 }
-.carousel .thumbs {
+.carousels .thumbs {
     display: none;
     justify-content: center;
     margin: 0;
     padding: 10px;
 }
-.carousel .thumb {
+.carousels .thumb {
     margin: 0 5px;
     cursor: pointer;
     border: none !important;
 }
-.carousel .overlay {
+.carousels .overlay {
     width: 80%;
     position: absolute;
     transform: translateY(-450%);
@@ -147,9 +147,18 @@
     .contact__cels {
         border-right: none;
     }
-    .carousel .slide img {
+    .carousels .slide img {
         width: 100vw !important;
         height: 40vh;
         object-fit: cover;
+    }
+    .carousels {
+        width: 100%;
+    }
+    .slogan {
+        padding: 1rem;
+    }
+    .home__text__center {
+        padding: 1rem;
     }
 }

@@ -14,17 +14,14 @@ const Home = () => {
       <div className="general home__general">
         <h1>La solution informatique complète à Chambéry</h1>
         <div className="under__title"></div>
-        <div className="carousel">
+        <div className="carousels">
           <Slider />
         </div>
         <h2 className="slogan">
-          Un projet web ou une évolution de votre infrastructure ?
+          Un projet web / une évolution de votre infrastructure ?
           <br />
           Nous vous accompagnons de A - Z
-          <br />
-          dans vos projets IT.
         </h2>
-        <br />
         <p className="home__text__center">
           Dépannage informatique pour les particuliers et professionnels.
           <br />

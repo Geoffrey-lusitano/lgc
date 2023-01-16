@@ -71,12 +71,19 @@
 }
 
 @media screen and (max-width:843px) {
-    .bord {
-        grid-template-columns: repeat(1, 1fr);
+    .bord__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .bord__little {
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        text-align: center;
+        padding: 0;
+        padding-bottom: 1rem;
     }
     .pro__sticker {
         display: flex;
@@ -87,5 +94,6 @@
     .pro__sticker h3 {
         text-align: center;
         justify-content: center;
+        width: auto;
     }
 }

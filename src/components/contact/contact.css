@@ -68,12 +68,13 @@ input, textarea {
 @media screen and (max-width:1161px) {
     .contact__container {
         grid-template-columns: repeat(2, 1fr);
+        width: 80%;
     }
 }
 
 @media screen and (max-width:630px) {
     .contact__container {
         grid-template-columns: repeat(1, 1fr);
-
+        width: 80%;
     }
 }
