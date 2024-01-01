@@ -30,14 +30,9 @@ function Nav() {
             Particulier
           </a>
         </li>
-        <li className="navbar__item slideInDown-4" onClick={handleShowLinks}>
-          <a href="#web" className="navbar__link">
-            Création site web
-          </a>
-        </li>
         <li className="navbar__item slideInDown-5" onClick={handleShowLinks}>
-          <a href="#portfolio" className="navbar__link">
-            Portfolio
+          <a href="#gaming" className="navbar__link">
+            Gaming
           </a>
         </li>
         <li className="navbar__item slideInDown-6" onClick={handleShowLinks}>

@@ -9,7 +9,9 @@
   text-decoration: none;
   list-style: none;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --color-bg: #f5f5f5;
   --color-primary: #107DBA;
@@ -44,7 +46,7 @@ ul {
 #home {
   padding: 75px 0 0;
 }
-#pro, #particular, #web, #portfolio, #contact {
+#pro, #particular, #web, #gaming, #contact {
   padding: 100px 0 0;
 }
 
@@ -91,6 +93,7 @@ ul {
   width: 100%;
   object-fit: cover;
 }
+
 /* ================ TABLETTE ============ */
 
 /* ================ SMARTPHONE ============ */

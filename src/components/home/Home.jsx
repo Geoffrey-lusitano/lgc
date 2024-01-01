@@ -1,55 +1,53 @@
 import React from "react";
 import "./home.css";
-import Slider from "./Slider.jsx";
 import { BsTelephoneFill } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-import one from '../../assets/1.jpg'
+import { CiCircleCheck } from "react-icons/ci";
 
 const Home = () => {
   return (
     <section id="home">
       <div className="general home__general">
-        <h1>La solution informatique complète à Chambéry</h1>
+        <h2>LGC chambéry</h2>
+        <h1>Services informatiques <br /> à domicile et en entreprise</h1>
         <div className="under__title"></div>
-        {/* <div className="carousels">
-          <Slider />
-        </div> */}
-        <img className="carousels" src={one} alt="" />
+        <ul className="atouts">
+          <li><span className="atout__icon"><CiCircleCheck /></span><span>Déplacement rapide</span></li>
+          <li><span className="atout__icon"><CiCircleCheck /></span><span>informaticiens PRO</span></li>
+          <li><span className="atout__icon"><CiCircleCheck /></span><span>SAV</span></li>
+          <li><span className="atout__icon"><CiCircleCheck /></span><span>Garanties</span></li>
+        </ul>
         <h2 className="slogan">
-          Un projet web / une évolution de votre infrastructure ?
-          <br />
-          Nous vous accompagnons de A - Z
+        Une petite équipe d'informaticiens, à taille humaine.
         </h2>
         <p className="home__text__center">
-          Dépannage informatique pour les particuliers et professionnels.
+          LGC Chambéry vous propose ses services informatiques tels que le dépannage informatique à domicile et en milieu professionnel, l’assistance aux utilisateurs, le conseil, l’installation de matériel informatique, etc. Notre équipe se déplace sur toute la Savoie.
           <br />
-          Créations de sites webs sur-mesures. Maison connecté - Formation -
-          Assemblage PC unique. Forte de collaborateurs experimenté nous
-          garantissont une approche qui garantira la reussite de votre projet
+          Depuis 2020, nous intervenons chez nos clients en entreprise et à domicile avec comme objectifs principaux la qualité du diagnostic et de prise en charge, la rapidité d’intervention et la fiabilité du support après intervention.
         </p>
         <div className="socialNetwork">
           <a
             href="https://www.linkedin.com/company/lgcorporation/about/?viewAsMember=true"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <BsLinkedin />
           </a>
-          <a
+          <a 
             href="https://www.facebook.com/profile.php?id=100089736540403"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <BsFacebook />
           </a>
           <a
             href="https://www.instagram.com/lgcorporation.73/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <BsInstagram />
           </a>
