@@ -19,7 +19,7 @@
     text-align: center;
     font-size: 1rem;
 }
-.home__general h1, h2, h3 {
+.home__general h1, .home__general h2, .home__general h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,5 +145,8 @@
     }
     .home__text__center {
         padding: 1rem;
+    }
+    .atouts {
+        flex-direction: column;
     }
 }

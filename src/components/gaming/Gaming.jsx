@@ -26,22 +26,22 @@ const data = [
 
 ]
 
-const Portfolio = () => {
+const Gaming = () => {
   return (
-    <section id="portfolio">
+    <section id="gaming">
       <div className="title">
-        <h2>Portfolio</h2>
+        <h2>Gaming</h2>
         <div className="divider__border"></div>
       </div>
-      <div className="general portfolio__general">
+      <div className="general gaming__general">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
+            <article key={id} className="gaming__item">
+              <div className="gaming__item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
-              <div className="portfolio__item-cta">
+              <div className="gaming__item-cta">
                 <a href={demo} className="btn btn-primary" target="_blank">
                   Lien
                 </a>
@@ -54,4 +54,4 @@ const Portfolio = () => {
   );
 };
   
-  export default Portfolio;
+  export default Gaming;

@@ -1,69 +1,129 @@
-.particular__general {
-
+.particular {
     color: var(--color-text-dark);
+    max-width: 1400px;
+    margin: 0 auto;
+
 }
+
 .title {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
+    font-size: 30px;
+    color: var(--color-primary);
 }
 .divider__border {
     margin-top: 1rem;
     width: 40px;
     height: 3px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
 }
-.particular__bord {
+.particular__signet {
     display: grid;
-    grid-template-columns: 60% 40%;
-    align-items: center;
-    background: var(--color-tercary);
-    border-radius: 15px 0 0 15px;
-    color: var(--color-secondary);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
-.particular__bord__content {
-max-height: 1050px;
+.signet {
+    border: 2px solid var(--color-primary);
+    border-radius: 1rem;
+    margin: 30px;
 }
-.bord__six {
+.signet__content {
+    padding: 30px;
+}
+.signet__icon {
+    font-size: 30px;
+    color: var(--color-primary);
+}
+.signet__carac li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.web__divider__border {
+    margin-top: 0.5rem;
+    width: 50px;
+    height: 2px;
+    background: var(--color-primary);
+    border-radius: var(--border-radius);
+}
+.services {
+
+    background-color: var(--color-primary-light);
+    width: 100%;
+}
+.services__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.engagements h4 {
+    padding-bottom: 1rem;
+    color: gray;
+}
+.engagements h2 {
+    font-size: 50px;
+    text-align: left;
+    justify-content: left;
+    padding-bottom: 2rem;
+}
+.engagements ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-bottom: 2rem;
+}
+.engagements li {
+
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+}
+.engagement__icon {
+    padding-right: 0.5rem;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+.engagements__details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.detail {
     padding: 2rem;
 }
-.particular__sticker {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 1rem;
+.detail h3 {
+    padding-bottom: 1rem;
+    font-size: 25px;
 }
-
-.particular__icon {
-font-size: 2rem;
-padding-top: 0.5rem;
+.detail__top {
+    border-radius: 1rem 1rem 0rem 1rem;
+    background-color: var(--color-primary);
+    color: whitesmoke;
 }
-.particular__icon svg g {
-    color: var(--color-secondary);
-    fill: var(--color-secondary);
-}
-.particular__content__img {
-    background-image: url(../../assets/particular.jpg);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
+.detail__bottom {
+    border-radius: 0rem 1rem 1rem 1rem;
+    background-color: var(--color-primary);
+    color: whitesmoke;
 }
 @media screen and (max-width:1161px) {
-    .particular__bord {
-        grid-template-columns: repeat(1, 1fr);
+    .services__content{
+        display: flex;
+        flex-direction: column;
+    }
+    .particular__signet {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width:630px) {
-    .particular__bord {
+    .particular__signet {
         grid-template-columns: repeat(1, 1fr);
         border-radius: var(--border-radius);
     }
-    .bord__six {
-        text-align: center;
+    .engagements__details {
+        grid-template-columns: repeat(1, 1fr);
     }
+
 }

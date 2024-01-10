@@ -20,21 +20,21 @@ function Nav() {
             Accueil
           </a>
         </li>
-        <li className="navbar__item slideInDown-2" onClick={handleShowLinks}>
-          <a href="#pro" className="navbar__link">
-            Pro
+        <li className="navbar__item slideInDown-3" onClick={handleShowLinks}>
+          <a href="#particular" className="navbar__link">
+            Services
           </a>
         </li>
         <li className="navbar__item slideInDown-3" onClick={handleShowLinks}>
-          <a href="#particular" className="navbar__link">
-            Particulier
+          <a href="#tarifs" className="navbar__link">
+            Tarifs
           </a>
         </li>
-        <li className="navbar__item slideInDown-5" onClick={handleShowLinks}>
+        {/* <li className="navbar__item slideInDown-5" onClick={handleShowLinks}>
           <a href="#gaming" className="navbar__link">
             Gaming
           </a>
-        </li>
+        </li> */}
         <li className="navbar__item slideInDown-6" onClick={handleShowLinks}>
           <a href="#contact" className="navbar__link">
             Contact

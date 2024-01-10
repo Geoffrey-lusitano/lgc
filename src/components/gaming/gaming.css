@@ -1,9 +1,9 @@
 
 
-#portfolio h2 {
+#gaming h2 {
     color: var(--color-secondary);
 }
-.portfolio__general {
+.gaming__general {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -11,36 +11,36 @@
     padding: 1rem;
 }
 
-.portfolio__item {
+.gaming__item {
     background: var(--color-secondary);
     padding: 1.3rem;
     border-radius: 2rem;
     transition: var(--transition);
 }
 
-.portfolio__item:hover {
+.gaming__item:hover {
     background: var(--color-tercary);
 }
 
-.portfolio__item-image {
+.gaming__item-image {
     border-radius: var(--border-radius-top);
     overflow: hidden;
     height: 13rem;
 
 }
-.portfolio__item-image img {
+.gaming__item-image img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
-.portfolio__item h3 {
+.gaming__item h3 {
     display: flex;
     margin: 1.2rem 0 1rem;
     justify-content: center;
 }
 
-.portfolio__item-cta {
+.gaming__item-cta {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -48,13 +48,13 @@
 }
 
 @media screen and (max-width:1161px) {
-    .portfolio__general {
+    .gaming__general {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width:630px) {
-    .portfolio__general {
+    .gaming__general {
         grid-template-columns: repeat(1, 1fr);
 
     }
