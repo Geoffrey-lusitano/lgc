@@ -85,7 +85,20 @@
 }
 
 @media screen and (max-width:1161px) {
-
+    #tarifs {
+        padding: 2rem;
+    }
+    .payment__title h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .payment__divider__border {
+        width: 250px;
+    }
+    .payment__signet h3 {
+        font-size: 20px;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width:630px) {
